@@ -9,7 +9,7 @@ This tool validates the structure of a JSON file based on predefined AWS IAM Rol
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/json-validator.git
+git clone https://github.com/klark142/json-validator.git
 cd json-validator
 ```
 2. Build the project
