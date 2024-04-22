@@ -2,6 +2,17 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'java'
+
+jar {
+    manifest {
+        attributes('Main-Class': 'org.example.JSONValidator')
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
 group = 'org.example'
 
 repositories {
