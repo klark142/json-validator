@@ -40,8 +40,8 @@ The application will validate the JSON file and print the result:
 1. Naviagte to the project directory
 ```bash
 cd path/to/json-validator
+```
 2. Use Gradle to run the tests. This command executes all tests included in the project:
 ```bash
 gradle test
 ```
-This command will compile the test code, run the tests, and provide a detailed report of all tests, including which tests passed or failed.
