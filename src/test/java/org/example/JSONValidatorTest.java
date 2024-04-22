@@ -1,8 +1,6 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
-
-import java.io.FileNotFoundException;
 import java.nio.file.Paths;
 
 import static org.junit.jupiter.api.Assertions.*;
